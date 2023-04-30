@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Poppins:wght@100;300;400;500;600&display=swap');
+
+.header {
+    padding: 3px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background: black;
+}
+
+.navbar a{
+color: grey;
+margin: 0.5rem;
+padding: 7px;
+font-size: 17px;
+text-decoration: none;
+font-family: 'Poppins', sans-serif;
+}
+
+.icons div{
+color: white;
+font-size: 1.5rem;
+margin-right: 10px;
+}
+
+.icons div:hover {
+cursor: pointer;
+}
+
+.icons a{
+color:  #DBA800;
+padding-right: 150px;
+text-decoration: none;
+font-family: 'Poppins', sans-serif;
+border-style: solid;
+border-radius: 5px; 
+padding: 10px;
+position: relative;
+right: 20px;
+margin-right: 20px;
+}
+
+.header img{
+position: relative;
+left: 100px;
+}
+
+.picture {
+width: 40%;
+height: 80%;
+position: relative;
+top: 65px;
+}
+
+.orta-yazi {
+position: relative;
+left: 45%;
+bottom: 400px;
+font-size: 50px;
+font-family: 'Merriweather', serif;
+width: 650px;
+}
+
+.subtitle {
+color: grey;
+font-size: 18px;
+font-family: 'Merriweather', serif;
+}
+
+#orderonline {
+color: black;
+background-color: #ffd800;
+font-size: 20px;
+text-decoration: none;
+border-style: solid;
+border-color: #ffd800;
+border-radius: 5px;
+padding: 10px;
+font-family: 'Poppins', sans-serif;
+}
+
+#ourlocation{
+    color: #ffd800;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+    left: 45px;
+    border-style: solid;
+    border-color: #ffd800;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
